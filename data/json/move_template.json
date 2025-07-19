@@ -1,0 +1,90 @@
+{
+	"name": "template_move",
+	"description": "n/a",
+	"type": {
+		"value" : "n/a",
+		"options" : ["attack", "utility"]
+	},
+	"element": {
+		"value": "n/a",
+		"options": ["water", "stone", "fire", "plant", "vital", "force", "thunder"]
+	},
+	"declarations": {
+		"value": [],
+		"_template": {
+			"_trigger": [],
+			"_type": {
+				"value": "n/a",
+				"options": {
+					"_move": {
+						"self": ["_active", "_banked", "_any"],
+						"enemy": ["_active", "_banked", "_any"],
+						"any": ["_active", "_banked", "_any"]
+					},
+					"_target": ["self", "enemy", "any", "both", "none"],
+					"_element": {
+						"self": ["_attuned_to", "_not_attuned_to"],
+						"enemy": ["_attuned_to", "_not_attuned_to"],
+						"any": ["_any"]
+					},
+					"_status":  {
+						"self": ["_has_status", "_not_has_status"],
+						"enemy": ["_has_status", "_not_has_status"],
+						"any": ["_any"]
+					},
+					"_integer": ["hp_amount"]
+				}
+			}
+		}
+	},
+	"ignores": {
+		"value": [],
+		"options": ["stun", "anger", "sleep"]
+	}
+	"attributes": {
+		"value": [],
+		"options": ["quick_move","slow_move","has_banked_effect","has_cursed_effect"]
+	},
+	"base": {
+		"_damage" : 0,
+		"_iters": 0
+	},
+	"attune": {
+		"_action": {
+			"value": "n/a",
+			"options": ["make_","negate_"]
+		},
+		"_element": {
+			"value": "n/a",
+			"options": ["water", "stone", "fire", "plant", "vital", "force", "thunder"]
+		},
+		"_target": {
+			"value": "n/a",
+			"options": ["self", "enemy", "both", "none" ]
+		}
+	},
+	"damage": {
+		"_action": {
+			"value": "n/a",
+			"options": ["make_","negate_"]
+		},
+		"_element": {
+			"value": "n/a",
+			"options": ["water", "stone", "fire", "plant", "vital", "force", "thunder"]
+		},
+		"_target": {
+			"value": "n/a",
+			"options": ["self", "enemy", "both", "none" ]
+		}
+	},
+	"functions": {
+		"value": [],
+		"_template": {
+			"_name": "n/a",
+			"_args": {
+				"value": {},
+				"options": ["_X", "_Y", "_Z"]
+			}
+		}
+	}
+}

@@ -1,0 +1,71 @@
+name,rarity,type,condition,function,description
+Alias Word,common,universal,none,AliasWord,For One Instance of Keyword: Replace with Kindred Keyword
+Grow One,common,universal,none,GrowOne,Until End of Run: Max HP += 1
+Focus One,common,universal,none,FocusOne,Declare Condition. Next Blessing Draft will Include Condition
+Alias Move,uncommon,universal,none,AliasMove,For One Move: Replace Each Instance of Keyword with Kindred Keyword
+Grow Three,uncommon,universal,none,GrowThree,Until End of Run: Max HP += 3
+Focus Two,uncommon,universal,none,FocusTwo,Declare Condition. Until End of Run: Every Draft will Include Condition
+Alias All,rare,universal,none,AliasAll,For Each Move: Replace Each Instance of a Keyword with Kindred Keyword
+Grow Seven,rare,universal,none,GrowSeven,Until End of Run: Max HP += 7
+Focus Pocus,rare,universal,none,FocusPocus,Until End of Run: All Blessings Are Rare
+Break Bank,rare,universal,none,BreakBank,Once Per Blessing: You May Shuffle a Banked Move with no Rarity Limits; You may Rearrange After
+Online Banker,common,element_locked,water,OnlineBanker,After Receiving a Blessing: You May Rearrange your Banked/Active Move Pool
+Iron Clad,common,element_locked,stone,IronClad,Once Per Match: Reduce First Instance of Received Damage by 1
+Lit Silly,common,element_locked,fire,LitSilly,Unlearn 1 Move: Receive 1 of 2 Random Rare Blessings; You May Rearrange Banked/Active Move Pool
+Well Trimmed,common,element_locked,plant,WellTrimmed,Decrement Any One Integer Value on Any Move
+Carnivore,common,element_locked,vital,Carnivore,Once Per Match: Heal Self equal to First Damage Self Deals
+Pill Popper,common,element_locked,force,PillPopper,Once Per Match: Start Match with 1 of 3 Random Statuses
+Inspired,common,element_locked,thunder,Inspired,At Start of Match: Fill Any Empty Active Move Slot with a Random Move Opponent Has
+Credit Unionizer,uncommon,element_locked,water,CreditUnionizer,Banked Moves Boost Damage of their Element Affinity
+Thick Skinned,uncommon,element_locked,stone,ThickSkinned,Once Per Match: Ignore first Application of Stun or Anger
+Midnight Stoker,uncommon,element_locked,fire,MidnightStoker,Once Per Match: First to Gain Burn Gains 1 Sleep
+Spruced Up,uncommon,element_locked,plant,SprucedUp,Increment Any One Integer Value on Any Move
+Blood Brother,uncommon,element_locked,vital,BloodBrother,Wounds Deal Vital Damage to All Players When Ruptured
+Persistant,uncommon,element_locked,force,Persistant,Until End of Run: Your Status Effects Persist Between Matches
+Plunder Struck,uncommon,element_locked,thunder,PlunderStruck,Until End of Run: Spend 1 Bank Slot; Start Rounds with +1 Iter
+Deep Diver,rare,element_locked,water,DeepDiver,Once Per Match: Spend a Turn to Rearrange your Banked/Active Move Pool
+Genius Rocker,rare,element_locked,stone,GeniusRocker,Until End of Run: You Can See Opponent's Private Attunements/Declarations
+High Roller,rare,element_locked,fire,HighRoller,Until End of Run: Attacks now use RNG: Misses/Criticals/Basic 2/2/2 Split
+Green Thumbed,rare,element_locked,plant,GreenThumbed,Until End of Run: On First Move Cast you may Alias 1 Keyword of your choice
+Insatiable,rare,element_locked,vital,Insatiable,Whenever Healing would Top Off at Max HP: Increase HP in Proportion to Excess
+Born Again,rare,element_locked,force,BornAgain,For Each Active Move: You May Unlearn Move; If you do: Learn 1 of 2 Random Moves of Same Rarity
+Time Traveller,rare,element_locked,thunder,TimeTraveller,Reset the Run; Retain Moves and Blessings; Lose either available Upgrade Option
+Moist Maker,common,element_static,water,MoistMaker,At Match Start: Target Becomes Attuned to Water
+Grounded,common,element_static,stone,Grounded,Self is Immune to Stun
+Heat Seeker,common,element_static,fire,HeatSeeker,When Self Becomes Attuned to Fire: Set Wager Count to 5
+Photosynthetic,common,element_static,plant,Photosynthetic,Whenever Player Attunes to Fire or Lightning: Regen += 1
+Bone Head,common,element_static,vital,BoneHead,Non-Vital Attunements Self-Negate after 3 Turns
+Less Winded,common,element_static,force,LessWinded,Self Cooldowns start with 1 less Count
+Keeps Current,common,element_static,thunder,KeepsCurrent,If Self would Lose Attunement to Thunder: Reattune after Losing Attune.
+Black Washed,uncommon,element_static,water,BlackWashed,Water Attacks Negate All Statuses and then Apply 1 Curse
+Resourceful,uncommon,element_static,stone,Resourceful,Whenever Attunement is Negated: You May Attune to Negated Element
+Galvanized,uncommon,element_static,fire,Galvanized,At Turn Start: If Not Strong: Gain 1 Strong
+Grass Toucher,uncommon,element_static,plant,GrassToucher,When Deals Damage to Non-Plant Attuned: Target Becomes Attuned to Plant
+Single Minded,uncommon,element_static,vital,SingleMinded,If Not Attuned to Non-Vital: Attacks Deal +2 Damage
+Rust Built,uncommon,element_static,force,RustBuilt,Whenever self attunes to water: Negate Water Attune; Gain 1 Strong
+Quick Witted,uncommon,element_static,thunder,QuickWitted,All Actions are Quick Actions
+Dripped Out,rare,element_static,water,DrippedOut,While Self Attuned to > 3 Elements Immune to Non-Water Damage
+Stone Butcher,rare,element_static,stone,StoneButcher,When Attacking with Stone Attack: Swap Iter and Pre-Calc Damage Values
+Multilingual,rare,element_static,fire,Multilingual,When Making Declaration: Make Two Declarations; Both Apply
+Vine Dancer,rare,element_static,plant,VineDancer,Whenever Bind You Make Terminate: Declare Non-Public Move: Bind Declared Move
+Gut Buster,rare,element_static,vital,GutBuster,Vital Attacks Rupture Wounds 
+Second Winded,rare,element_static,force,SecondWinded,If You Die: Heal HP to Max HP Lose all Attunements + Statuses (Once per Run)
+Shockingly Fair,rare,element_static,thunder,ShockinglyFair,Your Attacks Hit Everyone; Iter += 1
+Gyromaniac,uncommon,status_static,burn,Gyromaniac,While Burn: If Opponent Heals: Heal Proportional to Opponent Heal
+Dead Head,uncommon,status_static,wound,DeadHead,While Wound: If would Die from Wound Damage: Set HP to 1; Sleep += 1
+Mold Souled,uncommon,status_static,decay,MoldSouled,While Decay: If would gain Decay: Gain Regen Proportunately
+Peet Pilled,uncommon,status_static,regen,PeetPilled,While Regen: If would gain Non-Regen Status: Gain 1 Regen Also
+Speed Freak,uncommon,status_static,quick,SpeedFreak,While Quick: Iter += 1; Lose all Quick End of Execution
+Heavy Pockets,uncommon,status_static,slow,Heavy Pockets,While Slow: May use Moves from your Bank in Combat
+Heavy Sleeper,uncommon,status_static,sleep,HeavySleeper,While Sleep: Immune to Non-Status Damage
+Under Pressure,uncommon,status_static,angry,UnderPressure,While Angry: Immune to Sleep and Stun
+Show Stopper,uncommon,status_static,stun,ShowStopper,While Stun: All Public Information about you is Disguised (Math is Public but non-descriptive)
+Plain Unlucky,rare,status_static,curse,PlainUnlucky,While Curse: Immune to Status Effects other than Curse
+Fire Starter,rare,status_static,burn,FireStarter,While Burn: Before Move Execution: Opponents Gain 1 Burn
+Marrow Minded,rare,status_static,wound,MarrowMinded,While Wound: Attacks Deal 1 More Wound
+Spoiled Rotten,rare,status_static,decay,SpoiledRotten,While Decay: Ignore Cooldowns
+Tree Hugger,rare,status_static,regen,TreeHugger,While Regen: If Targeted by Plant Move: Bind Move
+Eye Spry,rare,status_static,quick,EyeSpry,While Quick: Before Declarations you may see Opponents Move Choice
+Slow Learner,rare,status_static,slow,SlowLearner,While Slow: When Opponent Uses Move: May Unlearn Move and Learn this Move until End of Match
+Dreamer ,rare,status_static,sleep,Dreamer,While Sleep: May Use Banked Moves in Combat as if they were SleepProof
+Ungovernable,rare,status_static,angry,Ungovernable,While Angry: Ignore Bound; Ignore Sleep
