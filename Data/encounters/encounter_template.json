@@ -1,0 +1,76 @@
+{
+	"name": "template_name",
+	"level": 1,
+	"max_hp": 10,
+	"hp": 10,
+	"is_elite": "False",
+	"blessings": [
+		"blessing_one",
+		"blessing_two",
+		"blessing_three"
+	],
+	"turn_history": {
+		"1": {
+			"move": "Roll Tide",
+			"args": {
+				"target": "opponent",
+				"declarations": []
+			}
+		},
+		"2": {
+			"move": "Cleanse",
+			"args": {
+				"target": "caster",
+				"declarations": [
+					"decay"
+				]
+			}
+		}
+	},
+	"moves": {
+		"active": [
+			{
+				"name": "Roll Tide",
+				"modifications": {
+					"element": "fire"
+				},
+				"added_effects": {
+					"pre-iter": {},
+					"iterable": {},
+					"post-iter": {}
+				}
+			},
+			{
+				"name": "Cleanse",
+				"modifications": {},
+				"added_effects": {
+					"pre-iter": {},
+					"iterable": {},
+					"post-iter": {}
+				}
+			},
+			{
+				"name": "Rocky Two",
+				"modifications": {
+					"base_iters": 3
+				},
+				"added_effects": {
+					"pre-iter": {},
+					"iterable": {},
+					"post-iter": {}
+				}
+			},
+			{
+				"name": "Restore",
+				"modifications": {},
+				"added_effects": {
+					"pre-iter": {},
+					"iterable": {},
+					"post-iter": {}
+				}
+			}
+		],
+		"banked": []
+	}
+}
+

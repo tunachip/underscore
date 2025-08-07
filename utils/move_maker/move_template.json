@@ -1,0 +1,60 @@
+{
+	"name": "Template Move",
+	"element": "water",
+	"type": "attack",
+	"target": "opponent",
+	"base_damage": 2,
+	"base_iters": 1,
+	"effects": {
+		"pre-iter": [
+			{
+				"object": "caster",
+				"function": "attune_to",
+				"args": {
+					"element": "$_element"
+				}
+			},
+			{
+				"object": "combat",
+				"function": "make_declaration",
+				"args": {
+					"type": "element"
+				},
+				"returns": {
+					"name": "$_declared"
+				}
+			}
+		],
+		"iterable": [
+			{
+				"object": "$_target",
+				"function": "calculate_damage",
+				"args": {
+					"element": "$_element",
+					"damage": "$_base_damage"
+				},
+				"returns": {
+					"name": "$_calculated_damage"
+				}
+			},
+			{
+				"object": "$_target",
+				"function": "take_damage",
+				"args": {
+					"damage": "$_calculated_damage"
+				}
+			}
+		],
+		"post-iter": [
+			{
+				"object": "combat",
+				"function": "assign_declaration",
+				"args": {
+					"type": "element",
+					"value": "$_declared"
+				}
+			}
+		]
+	},
+	"description": "This Text Describes The Move"
+}

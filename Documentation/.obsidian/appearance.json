@@ -1,0 +1,10 @@
+{
+  "accentColor": "#fe5dab",
+  "cssTheme": "Reverie",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter",
+  "baseFontSize": 18,
+  "showViewHeader": true,
+  "showRibbon": false,
+  "theme": "obsidian"
+}

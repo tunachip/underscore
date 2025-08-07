@@ -1,0 +1,43 @@
+{
+    "name": "Splash Out",
+    "element": "water",
+    "type": "attack",
+    "target": "opponent",
+    "description": "",
+    "base_damage": 2,
+    "base_iters": 1,
+    "effects": {
+        "pre-iter": [
+            {
+                "host": "character",
+                "function": "attune_to",
+                "args": {
+                    "element": "$_element"
+                },
+                "returns": {}
+            }
+        ],
+        "iterable": [
+            {
+                "host": "character",
+                "function": "calculate_damage",
+                "args": {
+                    "damage_element": "$_element",
+                    "amount": "$_base_damage"
+                },
+                "returns": {
+                    "calculated_damage": "$_calculated_damage"
+                }
+            },
+            {
+                "host": "character",
+                "function": "take_damage",
+                "args": {
+                    "amount": "$_calculated_damage"
+                },
+                "returns": {}
+            }
+        ],
+        "post-iter": []
+    }
+}

@@ -1,0 +1,14 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+
+/.venv/
+/backup_files/
+/backups_from gh/
+/testing_space/
+/test/
+/activate/
+/Include/
+/Lib/
+/Scripts/
+
+pyvenv.cfg

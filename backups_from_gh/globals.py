@@ -1,7 +1,6 @@
 ELEMENTS: dict = {
     'water': { 
         'color': 4,
-        'termcolor': "light_blue",
         'icon': '🌊',
         'weak_to':   ['thunder', 'plant'],
         'resists':   ['stone'],
@@ -10,7 +9,6 @@ ELEMENTS: dict = {
     },
     'stone': { 
         'color': 136,
-        'termcolor': "yellow",
         'icon': '🪨',
         'weak_to':   ['water', 'force'],
         'resists':   ['fire'],
@@ -19,7 +17,6 @@ ELEMENTS: dict = {
     },
     'fire': {
         'color': 196,
-        'termcolor': "light_red",
         'icon': '🔥',
         'weak_to':   ['water', 'stone'],
         'resists':   [],
@@ -28,7 +25,6 @@ ELEMENTS: dict = {
     },
     'plant': { 
         'color': 112,
-        'termcolor': "light_green",
         'icon': '🌿',
         'weak_to':   ['fire', 'vital'],
         'resists':   [],
@@ -37,7 +33,6 @@ ELEMENTS: dict = {
     },
     'vital': { 
         'color': 198,
-        'termcolor': "magenta",
         'icon': '❤️',
         'weak_to':   ['vital', 'force'],
         'resists':   [],
@@ -46,7 +41,6 @@ ELEMENTS: dict = {
     },
     'force': {
         'color': 36,
-        'termcolor': "light_cyan",
         'icon': '💨',
         'weak_to':   ['thunder'],
         'resists':   ['vital'],
@@ -55,101 +49,87 @@ ELEMENTS: dict = {
     },
     'thunder':  { 
         'color': 184,
-        'termcolor': "light_yellow",
         'icon': '⚡',
         'weak_to':   ['stone'],
         'resists':   ['water'],
         'immune_to': ['force'],
         'absorbs':   [],
     },
-    'misc': {
-        'termcolor': "white"
-    },
 }
 
 STATUSES: dict = {
     'burn': {
         'color': 167,
-        'termcolor': "light_red",
         'icon': '🔥',
         'deals': 'fire',
-        'max': 3,
+        'max_amount': 3,
     },
     'wound': {
         'color': 168,
-        'termcolor': "magenta",
         'icon': '🩸',
         'deals': 'vital',
-        'max': 1000,
+        'max_amount': 1000,
     },
     'decay': {
         'color': 30,
-        'termcolor': "cyan",
         'icon': '💀',
         'deals': 'force',
-        'max': 5,
+        'max_amount': 5,
     },
     'regen': {
         'color': 70,
-        'termcolor': "light_green",
         'icon': '✨',
         'deals': 'plant',
-        'max': 5,
+        'max_amount': 5,
     },
     'slow': {
         'color': 172,
-        'termcolor': "yellow",
         'icon': '🐌',
         'deals': 'none',
-        'max': 1,
+        'max_amount': 1,
     },
     'quick': {
         'color': 229,
-        'termcolor': "light_yellow",
         'icon': '⚡',
         'deals': 'none',
-        'max': 1,
+        'max_amount': 1,
     },
-    'anger': {
+    'angry': {
         'color': 174,
-        'termcolor': "light_red",
         'icon': '😡',
         'deals': 'none',
-        'max': 3,
+        'max_amount': 3,
     },
     'curse': {
         'color': 56,
-        'termcolor': "cyan",
         'icon': '😈',
         'deals': 'none',
-        'max': 3,
+        'max_amount': 3,
     },
     'stun': {
         'color': 184,
-        'termcolor': "light_yellow",
         'icon': '😵',
         'deals': 'none',
-        'max': 3,
+        'max_amount': 3,
     },
     'sleep': {
         'color': 107,
-        'termcolor': "green",
         'icon': '💤',
         'deals': 'none',
-        'max': 3,
+        'max_amount': 3,
     },
     'tough': {
         'color': 94,
-        'termcolor': "yellow",
         'icon': '🛡️',
         'deals': 'none',
-        'max': 3,
+        'max_amount': 3,
     },
     'strong': {
         'color': 1,
-        'termcolor': "red",
         'icon': '💪',
         'deals': 'none',
-        'max': 3,
+        'max_amount': 3,
     }
 }
+
+
